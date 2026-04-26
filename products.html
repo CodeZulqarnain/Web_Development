@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop premium handmade Kashmiri knitwear, pashminas, sweaters, and accessories at Chinar Craft House.">
+    <title>Products | Chinar Craft House</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo-container">
+                <img src="./images/brand_logo.png" alt="Chinar Craft House Logo" class="logo-img">
+                <span class="logo-text">Chinar Craft House</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html" class="active">Products</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            
+            <div>
+                <a href="checkout.html" class="cart-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <i class="fas fa-bars mobile-menu-btn"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <div style="background-color: var(--color-maroon); color: white; padding: 60px 0; text-align: center;">
+        <h1 style="color: white; margin-bottom: 10px;">Our Collection</h1>
+        <p>Authentic Kashmiri Handicrafts & Knitwear</p>
+    </div>
+
+    <!-- Products Section -->
+    <section class="container mt-2 mb-2">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 20px;">
+            <p>Showing all products</p>
+        </div>
+        
+        <!-- Products Container -->
+        <div id="products-container" class="products-grid">
+            <!-- Products will be dynamically inserted here via app.js -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Chinar Craft House</h3>
+                    <p>Authentic handmade Kashmiri products, preserving tradition through elegant craftsmanship.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fab fa-whatsapp"></i> +92 330 8522216</li>
+                        <li><i class="far fa-envelope"></i> hello@chinarcrafthouse.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Srinagar, Kashmir</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Chinar Craft House. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/products.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
